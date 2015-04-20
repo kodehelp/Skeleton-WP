@@ -1,2 +1,2 @@
 # Skeleton-WP
-Wordpress Template using Bootswatch Themes
+Wordpress Theme developed using Bootswatch Yeti Theme.

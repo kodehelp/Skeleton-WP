@@ -1,0 +1,274 @@
+/******************************************************************
+Site Name: Skeleton - WP
+Author: Dinesh Kalawadia
+
+Parent Stylesheet: https://bootswatch.com/yeti/
+******************************************************************/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 30px;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+
+/* Top Navigation Starts here... */
+
+.navbar-brand {
+	padding: 0px 15px;
+}
+
+.navbar {
+	text-transform: uppercase;
+	font-size: 13px;
+	display: block;
+    min-height:70px;
+    border-radius:0px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #FFF;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.dropdown>a .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav>.open>a .caret, .navbar-nav>.open>a:hover .caret, .navbar-nav>.open>a:focus .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color: #008cba;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus {
+	color: #fff;
+	background-color: #008cba;
+}
+.navbar-default .navbar-nav>.dropdown>.dropdown-menu {
+	left: 0px;
+	margin: 0px 0 0;
+	list-style: none;
+	border:none;
+	border: none;
+	border-radius: 0px;
+	-webkit-box-shadow: 0 0px 0px ;
+	box-shadow: 0 0px 0px ;
+	background-clip: padding-box;
+}
+
+.navbar-default .navbar-nav>.dropdown>.dropdown-menu>li>a {
+	color: #fff;
+    font-size:13px;
+}
+.navbar-default .navbar-nav>.dropdown>.dropdown-menu>li>a:hover,.navbar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #008cba;
+    background-image: -webkit-gradient(linear, left 0, left 100%, from(#008cba),
+    to(#008cba));
+    background-image: -webkit-linear-gradient(top, #008cba 0%, #008cba 100%);
+    background-image: -moz-linear-gradient(top, #008cba 0%, #008cba 100%);
+    background-image: linear-gradient(to bottom, #008cba 0%, #008cba 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff343E4F',
+    endColorstr='#ff343E4F', GradientType=0)
+}
+.navbar-default .dropdown-menu>li>a:hover{
+	background-color: #008cba;
+	background-image: none;
+}
+
+.navbar-default .navbar-toggle {
+    padding: 20px 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav>li>a{
+    padding-top: 24.5px;
+    padding-bottom: 24.5px;
+  }
+
+}
+
+/* Top Navigation Ends here .... */
+
+#main {
+	background-color: #fff;
+	//border-right: 1px #d2dddd solid;
+	left: 0;
+  //margin: 30px 0px;
+}
+
+#sidebar1{
+  padding-top:20px;
+  background-color: #e7e7e7;
+}
+
+#sidebar1 .widget {
+
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+
+#content {
+  margin-bottom:30px;
+
+}
+
+#main ul {
+  list-style-image: url('../images/arrow-red.png');
+}
+
+
+
+.loop-featured-image {
+    display: block;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 20px;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.loop-featured-image img {
+    width: 300px;
+    height: 150px;
+}
+
+.post-title h2 {
+	font-size: 25px;
+}
+
+#post-meta {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #999;
+    color: #999;
+    font-size: 13px;
+}
+.post-title-meta {
+	color: #999;
+	font-size: 13px;
+}
+
+.post-title-meta a{
+  color:#2C3E50;
+}
+
+.post-title-meta a:hover{
+  color:#008cba;
+}
+
+.post-title-meta:hover {
+	color: #008cba;
+}
+
+.entry-title {
+	font-size: 28px;
+}
+
+
+
+}
+#author-avatar {
+    float: left;
+    margin-right: 10px;
+    padding: 4px;
+    border: 1px solid #DDD;
+}
+#author-link {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-style: normal;
+}
+#author-link a {
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #19BC9C;
+}
+#author-description {
+	margin-left: 110px;
+	font-style: italic;
+}
+
+.comment-list > div {
+  padding: 15px;
+  margin: 0 0 20px;
+  background: #ECF0F1;
+  //border: 1px solid #e3e3e3;
+  border-radius: 3px;
+}
+
+.comment-content {
+  padding-left: 20px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  min-height: 60px;
+  background-color: #008cba;
+  color: #FFF;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer p{
+	margin-top: 10px;
+}
+
+.footer-links{
+    float:right;
+    margin-bottom:18px
+}
+.footer-links .menu{
+    list-style-type:none;
+    margin-left:0
+}
+.footer-links .menu li{
+    float:left;
+    margin-left:10px
+}
+
