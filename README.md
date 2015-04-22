@@ -17,7 +17,7 @@ Send the folder "skeleton-wp" to the default themes folder from WordPress `wp-co
 
 ## Documentation ##
 
-Informations about how-to use the classes and functions from Odin is on the [Official Wiki](https://github.com/dkalawadia/Skeleton-WP/wiki/)
+Informations about how-to use the classes and functions from Skeleton-WP is on the [Official Wiki](https://github.com/dkalawadia/Skeleton-WP/wiki/)
 
 ## Bugs and Sugestions ##
 
