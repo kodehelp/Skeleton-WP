@@ -1,4 +1,4 @@
-# Skeleton-WP
+# Skeleton-WP 
 
 ![Skeletion-WP](https://github.com/dkalawadia/Skeleton-WP/blob/master/library/images/logo.png)
 
