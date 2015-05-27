@@ -1,6 +1,6 @@
-## bones / languages
+## Skeleton-WP / languages
 
-**This folder contains the language-files for the bones framework.**
+**This folder contains the language-files for the skeleton-wp framework.**
 
 A function in `functions.php` identifies the LOCALE (e.g. da_DK) of your WordPress installation. If there is a language-file in `languages/` named accordingly (e.g. `da_DK.mo`), bones will use it. Fallback is English.
 
