@@ -4,7 +4,7 @@
 
 * [Website](http://kodehelp.com/skeleton-wp/)
 * [Demo](http://kodehelp.com/skeleton-wp/demo)
-* [GitHub](https://github.com/dkalawadia/Skeleton-WP)
+* [GitHub](https://github.com/kodehelp/Skeleton-WP)
 
 ## Project Description ##
 
