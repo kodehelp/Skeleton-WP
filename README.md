@@ -2,8 +2,8 @@
 
 ![Skeletion-WP](https://github.com/dkalawadia/Skeleton-WP/blob/master/library/images/logo.png)
 
-* [Website](http://kodehelp.com/skeleton-wp/)
-* [Demo](http://kodehelp.com/skeleton-wp/demo)
+* [Website](http://kodehelp.com/skeleton-wp/) (Not Working)
+* [Demo](http://kodehelp.com/skeleton-wp/demo) (Not Working)
 * [GitHub](https://github.com/kodehelp/Skeleton-WP)
 
 ## Project Description ##
